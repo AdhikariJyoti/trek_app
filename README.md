@@ -25,17 +25,19 @@ REST APIs have functionalities to add trek destination,get trek destinations,upd
       } </br>
     -Response: </br>
       message:a message after adding of trek destination is attempted </br>
-     e.g: </br>
-     >if adding of trek destination is successful: </br>
+      E.g. -on successful response 200 OK </br>
+      if adding of trek destination is successful: </br>
      {
-        "message": "Trek has been added Successfully" </br>
+        "message": "Trek has been added Successfully" 
       } </br>
       OR. </br>
-      >if entered token is invalid/user is not authenticated: </br>
+      if entered token is invalid/user is not authenticated: </br>
       { </br>
         "message": "Please enter a valid token" </br>
       } </br>
    
+      
+    
       
 2)GET all treks-this gets all treks from database </br>
   -URL: </br>

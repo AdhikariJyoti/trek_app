@@ -6,7 +6,6 @@ from flask import Flask, jsonify, render_template, request, session, redirect
 
 from flask_mysqldb import MySQL
 
-# for session
 from flask_session import Session
 
 # for unique tokens
